@@ -1,5 +1,5 @@
 {% set name = "mypy_boto3_ec2" %}
-{% set version = "1.40.22" %}
+{% set version = "1.40.24" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ff72b8876f3d6f2cc7e9cb2f583d928814ab8234e67ea02cc63dd4c6eed19771
+  sha256: 6825010f73877b0fce4adc042532725d949225fc0f080e9d6fceb059dbf5a1b7
 
 build:
   number: 0
