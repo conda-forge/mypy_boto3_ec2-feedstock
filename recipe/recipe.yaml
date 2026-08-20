@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: mypy_boto3_ec2
-  version: "1.43.74"
+  version: "1.43.76"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 61461fd437de8ba2ee29e606fd3df7b110f7fe73699db57633e8e1f7acd868d9
+  sha256: 0d72c1d2723f6102b3a1a3a62cb51804479a22c994c99a578fe8ea991420fc86
 
 build:
   number: 0
